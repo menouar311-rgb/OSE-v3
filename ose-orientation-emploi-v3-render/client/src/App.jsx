@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowLeft, ArrowRight, BarChart3, BriefcaseBusiness, CheckCircle2, Download, FileText, Gauge, LogOut, Mail, Search, ShieldCheck, Sparkles, Upload, UserRound } from 'lucide-react';
 import './style.css';
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API = '';
 const sectors = ['BTP', 'Logistique', 'Industrie', 'Restauration', 'Administratif', 'Service à la personne'];
 const blockersList = ['Mobilité', 'Garde d’enfant', 'Santé', 'Logement', 'Disponibilité', 'Langue', 'Administratif', 'Manque de confiance', 'Aucun frein'];
 
